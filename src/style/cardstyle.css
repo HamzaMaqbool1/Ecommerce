@@ -1,0 +1,31 @@
+/* src/styles/cardStyles.css */
+
+/* Ensures the card takes the full height of its container */
+.card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+/* Ensures that the card body takes up the available space */
+.card-body {
+    flex: 1;
+}
+
+/* Ensures that the image covers the card width while maintaining aspect ratio */
+.card-img-top {
+    width: 250px;
+    height: 250px;
+}
+#container{
+    height: 100vh;
+}
+#container button{
+    height: fit-content;
+}
+/* cardstyle.css */
+.button-spacing {
+    margin-right: 10px; /* Adjust as needed */
+  }
+  
+
